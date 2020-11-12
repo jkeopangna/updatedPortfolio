@@ -1,0 +1,27 @@
+html {
+  background: url(assets/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navLink {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  padding: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.active {
+  color: white;
+}
+
+.navLink:hover {
+  color: white;
+  text-decoration: none;
+}
