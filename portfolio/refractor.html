@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jon Keopangna's Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+<body class='container'>
+    <header class='row'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info col-sm-12">
             <a class="navbar-brand" href="index.html">
                 <i class="fab fa-dev fa-3x"></i>
             </a>
@@ -24,68 +24,44 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="navLink" href="index.html">Home</a>
+                  <a class="navLink" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="navLink" href="about.html">About</a>
+                  <a class="navLink" href="../about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="navLink active" href="contact.html">Contact</a>
+                  <a class="navLink" href="../contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="navLink dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="navLink dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Portfolio
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="portfolio/refractor.html">Code Refractor</a>
-                    <a class="dropdown-item" href="portfolio/dashboard.html">Weather Dashboard</a>
-                    <a class="dropdown-item" href="portfolio/elemental.html">Elemental Listening App</a>
-                  </div>
+                    <a class="dropdown-item" href="refractor.html">Code Refractor</a>
+                    <a class="dropdown-item" href="dashboard.html">Weather Dashboard</a>
+                    <a class="dropdown-item" href="elemental.html">Elemental Listening App</a>
                   </div>
                 </li>
               </ul>
             </div>
           </nav>
     </header>
-    <section class='container'>
-      <div class="row">
-          <article class="col">
-              <!--Empty space-->
-          </article>
-          <article class="col-6 intro">
-            <h1>
-            <a href="https://github.com/jkeopangna" target='_blank' class='navLink'> 
-              <i class="fab fa-github"></i> 
-          </a>
-          Github  
-            </h1>
-            <h1>
-              <a href="https://www.linkedin.com/in/jonathan-keopangna-8b8b5b1b4/" target='_blank'  class='navLink'>
-                <i class="fab fa-linkedin"></i>
-            </a>
-            LinkedIn
-              </h1>
-              <h1>
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwuLOq8__sAhVaQ80KHUheDHgQFjAAegQIARAD&url=https%3A%2F%2Fwww.google.com%2Fgmail%2F&usg=AOvVaw3mZ_qbD_gQyp_sqkjrwStn" target='_blank'  class='navLink'>
-                  <i class="fas fa-envelope"></i>
-              </a>
-              Email
-                </h1>
-          </article>
-          <article class="col">
-              <!--Empty space-->
-          </article>
-        </div> 
+    <section class='row example-container'>
+            <article class='col-sm-12'>
+            <h5>
+              Code Refractor (CSS/HTML)
+            </h5>
+            <img src="../assets/refractor.jpg" alt="Elemental Listening" title='Elemental Listening' id='screenshot'></img>
+            <div>
+              <a class="btn btn-dark" href="https://github.com/jkeopangna/BootcampHomework1" target='_blank' role="button">Github</a>
+              <a class="btn btn-dark" href="https://jkeopangna.github.io/BootcampHomework1/" target='_blank' role="button">Visit</a>
+            </div>
+            </article> 
 </section>
 
 
 
-
-
-
-
-
-    <!--Bootstrap CDNs-->
+<!--Bootstrap CDNs-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 

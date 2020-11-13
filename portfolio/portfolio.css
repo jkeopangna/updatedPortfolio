@@ -1,11 +1,8 @@
-html {
-  background: url(assets/background.jpg) no-repeat center fixed;
-  background-size: cover;
-}
-
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background: url(../assets/background.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 .navLink {
@@ -26,17 +23,26 @@ body {
   text-decoration: none;
 }
 
-.intro {
-  background: none;
-  /* text-align: center; */
-  border: medium black solid;
-  margin-top: 150px;
-  width: 30rem;
-  padding: 10px;
-  word-wrap: none;
+h5 {
+  text-decoration: underline;
+  padding: 5px;
+  font-size: medium;
+  font-weight: 900;
+  color: black;
 }
 
-.navLink:hover {
-  color: white;
-  text-decoration: none;
+.example-container {
+  text-align: center;
+  margin-top: 150px;
+  padding: 10px;
+  border-bottom: thin solid black;
+  border-top: thin solid black;
+}
+
+#screenshot {
+  width: 25rem;
+}
+
+.btn {
+  margin-top: 5px;
 }
