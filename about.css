@@ -1,11 +1,13 @@
-html {
+/* html {
   background: url(assets/background.jpg) no-repeat center fixed;
   background-size: cover;
-}
+} */
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background: url(assets/background.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 .navLink {
@@ -24,4 +26,27 @@ body {
 .navLink:hover {
   color: white;
   text-decoration: none;
+}
+
+.container {
+  background: none;
+  margin-top: 150px;
+  font-weight: bold;
+  color: black;
+  border: 2px black solid;
+}
+
+.profile-img {
+  width: 175px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px black solid;
+}
+
+.p {
+  line-break: 10px;
+  float: left;
 }

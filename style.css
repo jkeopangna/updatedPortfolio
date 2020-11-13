@@ -1,11 +1,13 @@
-html {
+/* html {
   background: url(assets/background.jpg) no-repeat center fixed;
   background-size: cover;
-}
+} */
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background: url(assets/background.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 .navLink {
@@ -24,4 +26,19 @@ body {
 .navLink:hover {
   color: white;
   text-decoration: none;
+}
+
+.intro {
+  background: none;
+  text-align: center;
+  border: medium black solid;
+  margin-top: 150px;
+  width: 30rem;
+  padding: 10px;
+  word-wrap: none;
+}
+
+#h1 {
+  border-bottom: thin black solid;
+  padding: 5px;
 }
