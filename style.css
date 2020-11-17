@@ -28,12 +28,12 @@ body {
   text-decoration: none;
 }
 
-.intro {
+.container {
   background: none;
   text-align: center;
   border: medium black solid;
   margin-top: 150px;
-  width: 30rem;
+  /* width: 30rem; */
   padding: 10px;
   word-wrap: none;
 }

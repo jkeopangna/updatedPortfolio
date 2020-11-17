@@ -36,17 +36,32 @@ body {
   border: 2px black solid;
 }
 
+.content {
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 .profile-img {
   width: 200px;
   height: 200px;
   float: left;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-right: 5px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
   border: 2px black solid;
 }
 
 .p {
   line-break: 10px;
-  float: left;
+  float: right;
+}
+
+h5 {
+  text-align: center;
+}
+
+.resumeLink {
+  color: black;
+  text-decoration: none;
 }
